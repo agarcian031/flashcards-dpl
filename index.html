@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-  
-  
+  <!-- NAVBAR -->
+  <nav>
+    <header class="title-header">
+      <h1>Flashcards</h1>
+    </header>
+    <button id="add-card" class="btn">Add Card</button>
+  </nav>
+  <!-- HEADER  -->
+
+<!-- CARDS -->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Question</h2>
+        <button id="edit-card" class="btn">Edit Card</button>
+        <button id="delete-card" class="btn">Delete Card</button>
+      </div>
+      <div class="flip-card-back">
+        <p>Answer</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>
